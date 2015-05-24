@@ -78,7 +78,7 @@ The following files are available for the train and test data. Their description
         - Mergedata (traindata and testadate)
         - Mergeflabels (feature labels)
 
-#Process
+#Steps:
 
 1	Extracts only the measurements on the mean and standard deviation for each measurement. 
 
