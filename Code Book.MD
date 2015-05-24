@@ -72,12 +72,13 @@ The following files are available for the train and test data. Their description
         - x_train.txt = training set
         - y_train.txt = training labels
 
-#Merged resuls into:
+#Merged results into:
         - traindata (train sets)
         - testdata (test sets)
         - Mergedata (traindata and testadate)
         - Mergeflabels (feature labels)
 
+#Process
 
 1	Extracts only the measurements on the mean and standard deviation for each measurement. 
 
