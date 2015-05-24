@@ -79,21 +79,21 @@ Mergedata (traindata and testadate)
 Mergeflabels (feature labels)
 
 
--	Extracts only the measurements on the mean and standard deviation for each measurement. 
+1	Extracts only the measurements on the mean and standard deviation for each measurement. 
 
         Mergedatameanstd = std()
         obtained STD and records with matching ID 
 
--	Uses descriptive activity names in the data set
+2	Uses descriptive activity names in the data set
 
         Mergedatameanstd = data set with names
         join data files together with ID
 
--	Appropriately labels the data set with descriptive 
+3	Appropriately labels the data set with descriptive 
 
         Use gsub function for header update.
 
--	Create and ouput data to a file
+4	Create and ouput data to a file
 
     Write results to "output-summary.txt"
 
