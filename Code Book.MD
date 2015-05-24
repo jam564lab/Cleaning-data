@@ -80,14 +80,21 @@ Mergeflabels (feature labels)
 
 
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+
 Mergedatameanstd = std()
 obtained STD and records with matching ID 
+
 3.	Uses descriptive activity names in the data set
+
 Mergedatameanstd = data set with names
 join data files together with ID
+
 4.	Appropriately labels the data set with descriptive 
+
 Use gsub function for header update.
+
 5.	Create and ouput data to a file
+
 Write results to "output-summary.txt"
 
 
