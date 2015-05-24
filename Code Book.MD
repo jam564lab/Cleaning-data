@@ -23,8 +23,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
-For each record it is provided:
-======================================
+#For each record it is provided:
+
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -32,8 +32,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
-=========================================
+#The dataset includes the following files:
 
 - 'README.txt'
 
@@ -61,7 +60,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-1. Merge the training and the test sets into one data set.
+#1. Merge the training and the test sets into one data set.
 ### Read files ###
 ## Activity_labels.txt = activity labels
 ## festures.txt  = features labels
@@ -80,15 +79,15 @@ Mergedata (traindata and testadate)
 Mergeflabels (feature labels)
 
 
-2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+#2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
 Mergedatameanstd = std()
 obtained STD and records with matching ID 
-3.	Uses descriptive activity names in the data set
+#3.	Uses descriptive activity names in the data set
 Mergedatameanstd = data set with names
 join data files together with ID
-4.	Appropriately labels the data set with descriptive 
+#4.	Appropriately labels the data set with descriptive 
 Use gsub function for header update.
-5.	Create and ouput data to a file
+#5.	Create and ouput data to a file
 Write results to "output-summary.txt"
 
 
