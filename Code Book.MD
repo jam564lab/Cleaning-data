@@ -60,23 +60,23 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-1. Merge the training and the test sets into one data set.
-    ### Read files ###
-    ## Activity_labels.txt = activity labels
-    ## festures.txt  = features labels
-    ## Read test files
-    ## x_test.txt = test sets
-    ## Y_test.txt = test labels
-    ## subject_test.txt = subjects
-    ## Read training files
-    ## x_train.txt = training set
-    ## y_train.txt = training labels
+Merge the training and the test sets into one data set.
+    Read files:
+        Activity_labels.txt = activity labels
+        festures.txt  = features labels
+        Read test files
+        x_test.txt = test sets
+        Y_test.txt = test labels
+        subject_test.txt = subjects
+        Read training files
+        x_train.txt = training set
+        y_train.txt = training labels
 
 Merged resuls into:
-    traindata (train sets)
-    testdata (test sets)
-    Mergedata (traindata and testadate)
-    Mergeflabels (feature labels)
+        traindata (train sets)
+        testdata (test sets)
+        Mergedata (traindata and testadate)
+        Mergeflabels (feature labels)
 
 
 1	Extracts only the measurements on the mean and standard deviation for each measurement. 
